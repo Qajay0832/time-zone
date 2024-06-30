@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div >
+        <h1>TimeZone API</h1>
+        <h1>Your Current Time Zone</h1>
+        <div style="border:1px solid black ; padding: 1rem;">
+            <div class="fields"><label>Name Of Time Zone : </label>
+                <p id="timezone"></p>
+            </div>
+
+            <div class="fields">
+                <div class="fields" style="width: 50%;"> <label>Lat: </label>
+                    <p id="latitude"></p>
+                </div>
+                <div class="fields"><label>Long: </label>
+                    <p id="longitude"></p>
+                </div>
+            </div>
+
+            <div class="fields"><label>Offset STD: </label>
+                <p id="offsetStd"></p>
+            </div>
+
+            <div class="fields"><label>Offset STD Seconds : </label>
+                <p id="offsetStdSec"></p>
+            </div>
+
+            <div class="fields"><label>Offset DST : </label>
+                <p id="offsetDst"></p>
+            </div>
+
+            <div class="fields"><label>Offset DST Seconds: </label>
+                <p id="offsetDstSec"></p>
+            </div>
+
+            <div class="fields"><label>Country: </label>
+                <p id="country"></p>
+            </div>
+
+            <div class="fields"><label>Statecode: </label>
+                <p id="statecode"></p>
+            </div>
+            <div class="fields"> <label>City: </label>
+                <p id="city"></p>
+            </div>
+ 
+
+
+        </div>
+    </div>
+    <div style="background-color: black; color: white;">
+        <div>
+            <h2>Enter Address</h2>
+            <input type="text" placeholder="Enter Address" id="address">
+            <button id="btn">Submit</button>
+            <p class="error">Please Enter An Address!</p>
+        </div>
+        <div class="container" style="display: none;">
+            <h1>Your Result</h1>
+            <div style="border:1px solid white ; padding: 1rem;">
+                <div class="fields"><label>Name Of Time Zone : </label>
+                    <p id="timezone1"></p>
+                </div>
+    
+                <div class="fields">
+                    <div class="fields" style="width: 50%;"> <label>Lat: </label>
+                        <p id="latitude1"></p>
+                    </div>
+                    <div class="fields"><label>Long: </label>
+                        <p id="longitude1"></p>
+                    </div>
+                </div>
+    
+                <div class="fields"><label>Offset STD: </label>
+                    <p id="offsetStd1"></p>
+                </div>
+    
+                <div class="fields"><label>Offset STD Seconds : </label>
+                    <p id="offsetStdSec1"></p>
+                </div>
+    
+                <div class="fields"><label>Offset DST : </label>
+                    <p id="offsetDst1"></p>
+                </div>
+    
+                <div class="fields"><label>Offset DST Seconds: </label>
+                    <p id="offsetDstSec1"></p>
+                </div>
+    
+                <div class="fields"><label>Country: </label>
+                    <p id="country1"></p>
+                </div>
+    
+                <div class="fields"><label>Statecode: </label>
+                    <p id="statecode1"></p>
+                </div>
+                <div class="fields"> <label>City: </label>
+                    <p id="city1"></p>
+                </div>
+     
+    
+    
+            </div>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+
+</html>
